@@ -21,7 +21,6 @@ public class Main {
 
         StackManager stack = StackManager.getInstance();
         try {
-
             stack.push("Hello");
             stack.printArray();
             stack.push("Hello");
